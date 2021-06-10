@@ -60,7 +60,7 @@ class App extends React.Component {
           <h1>ToDo List</h1><br />
           <div>
             <input type="text" className="todo-input" placeholder="Enter the Task" value={this.state.item} onChange={this.changeHandle} />
-            <button className="btn-add" onClick={this.addHandler}>add</button>
+            <button className="btn-add" onClick={this.addHandler}>+</button>
           </div>
           <div className="todo-list-container">
             {this.state.items ? this.state.items.map((item) => {
