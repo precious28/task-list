@@ -1,0 +1,98 @@
+.container-div{
+    width:100%;
+    height:100vh;
+    background:grey;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.child-div-center{
+    width:50%;
+    height:80vh;
+    background-color:#f4f4f4;
+    box-shadow:5px 5px 25px -5px rgba(0,0,0,0.5);
+    border-radius:15px;
+}
+h1{
+  color:black;
+  background:transparent;
+  margin-bottom:10px;
+}
+.todo-input{
+    text-align:center;
+    top:10px;
+    border:none;
+    background:transparent;
+    font-size:20px;
+    font-weight:500;
+    width:60%;
+    border-bottom:2px solid #8566aa;
+    outline:none;
+}
+.btn-add{
+  min-height:40px;
+  width:50px;
+  border-radius:50%;
+  border-color:transparent;
+  background-color:#669999;
+  color:#fff;
+  font-size:40px;
+  border:none;
+  outline:none;
+  margin-left:10px;
+  box-shadow:5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.btn-add:hover{
+ cursor: pointer;
+}
+
+.todo-list-container{
+    width: 100%;
+    text-align: center;
+}
+.todo-list-item{
+  padding-left:5px;
+  width:60%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  text-align:center;
+  margin-bottom:5px;
+  margin-top:10px;
+  background-color: indianred;
+  margin-left:10px;
+  padding:10px;
+  border-radius: 5px;
+  
+}
+.todo-list-item .fa-times{
+    width:20px;
+    height:20px;
+    display:flex;
+    justify-content:center;
+    background-color:#669999;
+    border-radius:50%;
+    margin:0 15px 0 35px;
+    color:aliceblue;
+    box-shadow:5px 5px 15px -15px rgba(0,0,0,0.3);
+}
+.todo-list-item .fa-times:hover{
+  background-color:red;
+}
+.fa-edit{
+  margin-left:10px;
+  color:blue;
+}
+.fa-edit:hover{
+  cursor: pointer;
+}
+
+.fa-check{
+  color:green;
+}
+.fa-check:hover{
+  cursor: pointer;
+}
